@@ -4,5 +4,5 @@ from . import views
 
 urlpatterns = [
     path('', views.MenuList.as_view(), name='home'),  # the class in views.py
-    path('menuitem/', views.MenuItemDetail.as_view(), name='menu_item')
+    path('menuitem/<int:pk>/', views.MenuItemDetail.as_view(), name='menu_item')
 ]
