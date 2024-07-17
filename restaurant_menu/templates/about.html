@@ -2,28 +2,29 @@
 {% block content %}
 {% load static %}
 
-
-<header>
-    <h1>The Prancing Pony Inn of Bree</h1>
-    <img src="{% static 'restaurant_menu/prancing_pony_sign.jpg' %}">
-    <h2>Welcome to the Prancing Pony!</h2>
-    <p>Nestled in the bustling town of Bree, the Prancing Pony Inn has been a haven for travelers, adventurers, and locals alike for generations. With its cozy atmosphere, hearty fare, and renowned hospitality, the Prancing Pony stands as a cornerstone of the community and a vital waypoint on many a journey through Middle-earth.</p>
-</header>
-
-<section>
-    <h2>Our History</h2>
-        <p>The Prancing Pony was established long ago by the Butterbur family and has been passed down through the generations, each proprietor adding their own touch to its storied legacy. The current innkeeper, Barliman Butterbur, continues this proud tradition, ensuring that every guest experiences the warmth and charm that the inn is famous for.</p>
-    <h2>What We Offer</h2>
-        <h3>Comfortable Accommodations</h3>
-            <p>Our inn boasts a variety of rooms to suit all travelers (hobbits and dwarves welcome), from cozy single rooms to spacious family suites. Each room is furnished with rustic decor, soft beds, and all the amenities one might need for a restful stay.</p>
-        <h3>Delicious Cuisine</h3>
-            <p>Our kitchen offers a delightful menu of traditional Bree-land dishes, inspired by the diverse cultures of Middle-earth. Whether you are in the mood for a hearty stew, a savory pie, or a sweet treat, our menu is sure to satisfy your appetite.</p>
-        <h3>Fine Ales and Beverages</h3>
-            <p>The Prancing Pony is famous for its selection of ales, ciders, and other beverages. From the robust Dwarven Stout to the refreshing Shire Cider, our drinks are crafted to please even the most discerning palate.</p>
-        <h3>A Place for Stories and Fellowship</h3>
-            <p>The common room of the Prancing Pony is a lively place where tales are told, songs are sung, and friendships are forged. Travelers from far and wide gather here to share news, exchange stories, and enjoy each other's company. The warm fire and welcoming atmosphere make it the perfect place to relax after a long day on the road.</p>
-</section>
-    <p>May your travels be safe and your stay with us be filled with comfort and joy. We look forward to welcoming you to the Prancing Pony Inn!</p>
-
+<div class="container">
+    <div>
+        <h1>The Prancing Pony Inn of Bree</h1>
+        <img src="{% static 'restaurant_menu/prancing_pony_sign.jpg' %}" width="500">
+        <h2 class="pt-3">Welcome to the Prancing Pony!</h2>
+        <p>Nestled in the bustling town of Bree, the Prancing Pony Inn has been a haven for travelers, adventurers, and locals alike for generations. With its cozy atmosphere, hearty fare, and renowned hospitality, the Prancing Pony stands as a cornerstone of the community and a vital waypoint on many a journey through Middle-earth.</p>
+        <hr class="my-4">
+    </div>
+    <div>
+        <h2 class="pt-5">Our History</h2>
+            <p>The Prancing Pony was established long ago by the Butterbur family and has been passed down through the generations, each proprietor adding their own touch to its storied legacy. The current innkeeper, Barliman Butterbur, continues this proud tradition, ensuring that every guest experiences the warmth and charm that the inn is famous for.</p>
+        <h2 class="pt-5">What We Offer</h2>
+            <h3 class="pt-3">Comfortable Accommodations</h3>
+                <p>Our inn boasts a variety of rooms to suit all travelers (hobbits and dwarves welcome), from cozy single rooms to spacious family suites. Each room is furnished with rustic decor, soft beds, and all the amenities one might need for a restful stay.</p>
+            <h3 class="pt-5">Delicious Cuisine</h3>
+                <p>Our kitchen offers a delightful menu of traditional Bree-land dishes, inspired by the diverse cultures of Middle-earth. Whether you are in the mood for a hearty stew, a savory pie, or a sweet treat, our menu is sure to satisfy your appetite.</p>
+            <h3 class="pt-5">Fine Ales and Beverages</h3>
+                <p>The Prancing Pony is famous for its selection of ales, ciders, and other beverages. From the robust Dwarven Stout to the refreshing Shire Cider, our drinks are crafted to please even the most discerning palate.</p>
+            <h3 class="pt-5">A Place for Stories and Fellowship</h3>
+                <p>The common room of the Prancing Pony is a lively place where tales are told, songs are sung, and friendships are forged. Travelers from far and wide gather here to share news, exchange stories, and enjoy each other's company. The warm fire and welcoming atmosphere make it the perfect place to relax after a long day on the road.</p>
+    </div>
+    <hr class="my-4">
+    <p class="pb-5">May your travels be safe and your stay with us be filled with comfort and joy. We look forward to welcoming you to the Prancing Pony Inn!</p>
+</div>
 
 {% endblock content %}
