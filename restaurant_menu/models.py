@@ -8,7 +8,8 @@ MEAL_TYPE = (
     ("starters", "Starters"),
     ("salads", "Salads"),
     ("main_dishes", "Main Dishes"),
-    ("desserts", "Desserts")
+    ("desserts", "Desserts"),
+    ("beverages", "Beverages")
 )
 
 STATUS = (
